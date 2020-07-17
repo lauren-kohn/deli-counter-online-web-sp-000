@@ -19,7 +19,6 @@ def take_a_number(katz_deli, name)
   katz_deli.push(name)
   katz_deli.last.with_index(1)
     puts "Welcome, #{name}. You are number #{i} in line."
-  end
 end
 
 def now_serving
