@@ -28,6 +28,7 @@ def now_serving(katz_deli)
   else
     puts "Currently serving #{katz_deli[0]}."
     katz_deli.shift
+    # removes the person being served from the line array
   end
 end
 
