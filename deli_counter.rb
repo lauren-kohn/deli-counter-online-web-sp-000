@@ -17,7 +17,9 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
+  # adds new person to the array
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+  # reports their name and their place in the line
 end
 
 def now_serving(katz_deli)
